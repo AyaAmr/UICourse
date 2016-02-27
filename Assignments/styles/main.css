@@ -14,8 +14,8 @@ less-dark-gray: #606060;
 
 */
 .container {
-  max-width: 1180px;
-  margin: 0 auto;
+	max-width: 1180px;
+	margin: 0 auto;
 }
 .logo h1 {
 	display: inline-block;
@@ -38,13 +38,13 @@ less-dark-gray: #606060;
 
 }
 .nav-wrapper li {
-  display: inline-block;
-  margin: 0 26px;
+	display: inline-block;
+	margin: 0 26px;
 
 }
 .nav-wrapper a {
-  color: #606060;
-  text-decoration: none;
+	color: #606060;
+  	text-decoration: none;
 }
 
 .user-links {
@@ -65,8 +65,8 @@ less-dark-gray: #606060;
 	margin: 0px 0px 0px 45px;
 }
 .user-links a {
-  color: #606060;
-  text-decoration: none;
+  	color: #606060;
+  	text-decoration: none;
 }
 .user {
 	background:url('../images/user-icon.png') 0% 50% no-repeat no-repeat;
@@ -110,15 +110,14 @@ less-dark-gray: #606060;
 	color: #969696;
 }
 section .flat-btn {
-  color: #969696;
-  background-color: #fff;
-  border: solid;
-  border-width: 2px;
-  border-color: #BCBCBC;
-  padding: 0 33px;
-  line-height: 60px;
-  text-transform: uppercase;
-
+  	color: #969696;
+  	background-color: #fff;
+  	border: solid;
+  	border-width: 2px;
+  	border-color: #BCBCBC;
+  	padding: 0 33px;
+  	line-height: 60px;
+  	text-transform: uppercase;
 }
 .tiles table {
 	width: 100%;
@@ -196,14 +195,11 @@ section .flat-btn {
 	color: #303030;
 	margin: 20px 0;
 	text-transform: uppercase;
-
-
 }
 .newsletter p {
 	font-size: 18px;
 	color: #969696;
 	margin-bottom: 50px;
-
 }
 .subscribe-form input[type="submit"] {
 	color: #fff;
