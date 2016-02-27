@@ -32,9 +32,9 @@ less-dark-gray: #606060;
 }
 .nav-wrapper ul{
 	margin: 0;
-  	padding: 0;
-  	list-style: none;
-  	font-size: 14px;
+	padding: 0;
+	list-style: none;
+	font-size: 14px;
 
 }
 .nav-wrapper li {
@@ -44,7 +44,7 @@ less-dark-gray: #606060;
 }
 .nav-wrapper a {
 	color: #606060;
-  	text-decoration: none;
+  text-decoration: none;
 }
 
 .user-links {
@@ -54,9 +54,9 @@ less-dark-gray: #606060;
 }
 .user-links ul{
 	margin: 0;
-  	padding: 0;
-  	list-style: none;
-  	font-size: 14px;
+	padding: 0;
+	list-style: none;
+	font-size: 14px;
 
 }
 
@@ -65,12 +65,12 @@ less-dark-gray: #606060;
 	margin: 0px 0px 0px 45px;
 }
 .user-links a {
-  	color: #606060;
-  	text-decoration: none;
+	color: #606060;
+	text-decoration: none;
 }
 .user {
 	background:url('../images/user-icon.png') 0% 50% no-repeat no-repeat;
-   	padding: 3px 0px 0px 20px;
+	padding: 3px 0px 0px 20px;
 }
 .cart {
 	background:url('../images/basket-icon.png') 0% 50% no-repeat no-repeat;
@@ -81,11 +81,11 @@ less-dark-gray: #606060;
 	padding: 0px 0px 0px 44px;
 }
 .search a {
-    display: inline-block;
-    overflow: hidden;
-    width: 0;
-    height: 14px;
-    padding: 0px;
+  display: inline-block;
+  overflow: hidden;
+  width: 0;
+  height: 14px;
+  padding: 0px;
 }
 .separator hr {
 	margin: 0;
@@ -110,14 +110,14 @@ less-dark-gray: #606060;
 	color: #969696;
 }
 section .flat-btn {
-  	color: #969696;
-  	background-color: #fff;
-  	border: solid;
-  	border-width: 2px;
-  	border-color: #BCBCBC;
-  	padding: 0 33px;
-  	line-height: 60px;
-  	text-transform: uppercase;
+	color: #969696;
+	background-color: #fff;
+	border: solid;
+	border-width: 2px;
+	border-color: #BCBCBC;
+	padding: 0 33px;
+	line-height: 60px;
+	text-transform: uppercase;
 }
 .tiles table {
 	width: 100%;
@@ -140,15 +140,15 @@ section .flat-btn {
 .tweet::before {
 	font-family: FontAwesome;
 	font-size: 30px;
-   	content: "- \f099 - \a";
-   	white-space: pre; /*What does this do ?*/
+ 	content: "- \f099 - \a";
+ 	white-space: pre; /*What does this do ?*/
 }
 .tweet span {
 	font-weight: bold;
 }
 .tweet span::before {
-   	content: "\a";
-   	white-space: pre; /*What does this do ?*/
+ 	content: "\a";
+ 	white-space: pre; /*What does this do ?*/
 }
 .span-row {
 	font-weight: bold;
@@ -218,42 +218,33 @@ section .flat-btn {
 	padding: 24px 0px;
 
 }
-.col-1,
-.col-2,
-.col-3 {
+.footer-cols div:not(:last-child) {
 	float: left;
 	border-right: 1px #BCBCBC solid; 
 	height: 159px;
 	width: 300px;
 	
 }
-.col-4 {
+.footer-cols div:last-child {
 	float: left;
 	width: 280px;
 
 }
-.col-2,
-.col-3,
-.col-4 {
+.footer-cols div:not(:first-child) {
 	padding-left: 15px;
 
 }
-.col-1 ul,
-.col-2 ul,
-.col-3 ul,
-.col-4 ul {
+.footer-cols ul {
 	margin: 0;
-  	padding: 0;
-  	list-style: none;
-  	line-height: 22px;
-  	font-size: 12px;
+	padding: 0;
+	list-style: none;
+	line-height: 22px;
+	font-size: 12px;
 
 }
-.col-1 a,
-.col-2 a,
-.col-3 a {
-  	color: #606060;
-  	text-decoration: none;
+.footer-cols a {
+	color: #606060;
+	text-decoration: none;
 }
 .col-4 .social-icons li {
 	display: inline-block;
@@ -264,10 +255,7 @@ section .flat-btn {
 	color: #303030;
 
 }
-.col-1 h4,
-.col-2 h4,
-.col-3 h4,
-.col-4 h4 {
+.footer-cols h4 {
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #303030;
@@ -276,7 +264,7 @@ section .flat-btn {
 .clearfix::before,
 .clearfix::after {
  	content: "";
-  	display: table;
+  display: table;
 }
 .clearfix::after {
 	clear: both;
