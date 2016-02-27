@@ -190,6 +190,7 @@ less-dark-gray: #606060;
 .newsletter {
 	margin: 130px 0;
 	text-align: center;
+	position: relative;
 }
 .newsletter h2 {
 	font-size: 36px;
@@ -202,13 +203,16 @@ less-dark-gray: #606060;
 	color: #969696;
 	margin-bottom: 50px;
 }
-.subscribe-form input[type="submit"] {
+
+.subscribe-form button {
 	color: #fff;
 	background-color: #f48240;
 	border: solid;
 	border-width: 1px;
 	border-color: #E47435;
 	padding: 24px 28px;
+	position: absolute;
+
 }
 .subscribe-form input[type="email"] {
 	color: #000;
