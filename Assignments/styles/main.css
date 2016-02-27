@@ -216,7 +216,7 @@ less-dark-gray: #606060;
 	border-width: 1px;
 	border-color: #BCBCBC;
 	width: 475px;
-	padding: 24px 0px;
+	padding: 24px 15px;
 
 }
 .footer-cols div:not(:last-child) {
