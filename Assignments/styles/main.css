@@ -371,7 +371,73 @@
 .purchases__single-item-data__amount {
 	width: 150px;
 }
+.box-shape {
+	border: 1px solid #a0a0a0;
 
+}
+.mini-container {
+	max-width: 590px;
+	margin: 0 auto;
+}
+
+.shipping-form {
+	color: #606060;
+	max-width: 590px;
+	margin: 0 auto;
+	margin-top: 100px;
+
+}
+
+.shipping-form label {
+	display: block;
+	margin: 10px 0px;
+}
+.shipping-form div {
+	margin: 20px 0px;
+}
+.shipping-form input {
+	width: 100%;
+	height: 40px;
+}
+.shipping-form select {
+	width: 100%;
+    border:1px solid #ccc;
+    vertical-align:top;
+    height:40px;
+    padding: 10px;
+    -webkit-appearance: none;
+    background: url('../images/new-arrow.png') no-repeat right #fff;
+}
+
+.shipping-form .grid div:first-child {
+	padding-right: 10px;
+}
+.shipping-form .grid div:last-child {
+	padding-left: 10px;
+}
+.confirm-billing {
+	text-align: center;
+}
+.confirm-billing label {
+	display: inline;
+}
+.confirm-billing input {
+	width: 20px;
+	height: 15px;
+}
+.center-btn {
+	text-align: center;
+	padding: 40px 0px;
+}
+.center-btn button {
+	color: #fff;
+	background-color: #f48240;
+	border: solid;
+	border-width: 1px;
+	border-color: #E47435;
+	width: 196px;
+	height: 50px;
+}
 footer {
 	font-size: 12px;
 	color: #303030;
@@ -413,8 +479,8 @@ footer h4 {
 
 .clearfix::before,
 .clearfix::after {
- 	content: "";
-  display: table;
+	content: "";
+	display: table;
 }
 .clearfix::after {
 	clear: both;
