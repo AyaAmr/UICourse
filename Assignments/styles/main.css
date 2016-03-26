@@ -396,7 +396,11 @@
 
 .shipping-form label {
 	display: block;
+	text-transform: uppercase;
 	margin: 10px auto;
+}
+.shipping-form label > span {
+	text-transform: none;
 }
 .shipping-form div {
 	margin: 20px auto;
