@@ -448,9 +448,7 @@
     -webkit-appearance: none;
     background: url('../images/payment-methods.png') no-repeat right #fff;
 }
-/*.mini-container .total-calculation {
-	text-align: center;
-}*/
+
 .total-calculation table {
 	margin: 0 auto;
 	margin-bottom: 80px;
@@ -460,6 +458,12 @@
 }
 .total-calculation td:first-child {
 	text-align: right;
+}
+.custom-separator {
+	width: 100%;
+	height: 170px;
+	background: url('../images/arrows-separator.png') no-repeat center #fff;
+
 }
 
 footer {
