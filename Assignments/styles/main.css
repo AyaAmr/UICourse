@@ -310,7 +310,6 @@
 .category__product__price p::before {
 	color: #6c6c6c;
 	content: "\20AC \00a0";
-
 }
 .section-title {
 	text-align: center;
@@ -373,6 +372,7 @@
 .purchases__single-item-data__amount {
 	width: 150px;
 }
+
 .purchases__single-item-data__delete {
 	color: #fff;
 	overflow: hidden;
@@ -470,6 +470,15 @@
 	background: url('../images/arrows-separator.png') no-repeat center #fff;
 
 }
+.purchases__single-item-data__amount p::before,
+.total-calculation td:last-child::before {
+	content: "\20AC \00a0";
+}
+
+.total-calculation tr:last-child {
+	color: #f48240;
+}
+
 
 footer {
 	font-size: 12px;
