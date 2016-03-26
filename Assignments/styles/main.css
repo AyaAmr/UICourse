@@ -328,12 +328,14 @@
 }
 .purchases table {
 	width: 100%;
+	margin-top: 90px;
 }
 .purchases th{
 	color: #a0a0a0;
 	font-weight: normal;
 	text-transform: uppercase;
 	text-align: left;
+	padding: 10px;
 }
 .purchases tr {
 	border-bottom: 1px solid #a0a0a0;
@@ -371,17 +373,20 @@
 .purchases__single-item-data__amount {
 	width: 150px;
 }
+.purchases__single-item-data__delete {
+	color: #fff;
+	overflow: hidden;
+	text-indent: -9999px;
+	background-color: #fff;
+	/*background: url('../images/cross.png') no-repeat right #fff;*/
+	background:url('../images/cross.png') 50% 50% no-repeat no-repeat;
+}
 .box-shape {
 	border: 1px solid #a0a0a0;
-
 }
-
 
 .shipping-form {
 	color: #606060;
-/*	max-width: 590px;
-	margin: 0 auto;
-	margin-top: 100px;*/
 }
 .mini-container {
 	max-width: 590px;
