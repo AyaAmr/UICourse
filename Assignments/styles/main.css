@@ -110,7 +110,7 @@
 }
 .separator hr {
 	margin: 0;
-	color: #969696;
+	color: #a0a0a0;
 
 }
 .breadcrumbs ol {
@@ -312,6 +312,66 @@
 	content: "\20AC \00a0";
 
 }
+.section-title {
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 100px;
+	margin-bottom: 17px;
+}
+.section-subtitle {
+	text-align: center;
+	font-size: 18px;
+	color: #606060;
+	font-style: italic;
+}
+.purchases table {
+	width: 100%;
+}
+.purchases th{
+	color: #a0a0a0;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: left;
+}
+.purchases tr {
+	border-bottom: 1px solid #a0a0a0;
+}
+.purchases td {
+	padding: 10px;
+}
+.purchases__single-item-data__img {
+	width: 125px;
+}
+.purchases__single-item-data__description {
+	width: 490px;
+}
+.purchases__single-item-data__description__name {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+.purchases__single-item-data__description__ref {
+	margin-top: 5px;
+	font-size: 12px;
+	color: #606060;
+	font-style: italic;
+}
+.purchases__single-item-data__color {
+	width: 150px;
+}
+.purchases__single-item-data__size {
+	width: 120px;
+}
+.purchases__single-item-data__qty {
+	width: 70px;
+}
+.purchases__single-item-data__amount {
+	width: 150px;
+}
+
 footer {
 	font-size: 12px;
 	color: #303030;
