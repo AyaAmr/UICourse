@@ -381,6 +381,18 @@
 	/*background: url('../images/cross.png') no-repeat right #fff;*/
 	background:url('../images/cross.png') 50% 50% no-repeat no-repeat;
 }
+.purchases__total {
+	background-color: #f9f9f9;
+	line-height: 50px;
+	text-align: right;
+	padding-right: 150px;
+	font-weight: bold;
+}
+.purchases__total p > span {
+	font-weight: normal;
+	color: #f48240;
+}
+
 .box-shape {
 	border: 1px solid #a0a0a0;
 }
@@ -475,7 +487,8 @@
 
 }
 .purchases__single-item-data__amount p::before,
-.total-calculation td:last-child::before {
+.total-calculation td:last-child::before,
+.purchases__total p > span::before {
 	content: "\20AC \00a0";
 }
 
