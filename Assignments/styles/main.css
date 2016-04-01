@@ -12,25 +12,21 @@
 	float: left;
 	margin: 10px 30px 0 0;
 	line-height: 104px;
-
 }
 .nav-wrapper {
 	display: inline-block;
 	float: left;
 	line-height: 114px;
-
 }
 .nav-wrapper ul{
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	font-size: 14px;
-
 }
 .nav-wrapper li {
 	display: inline-block;
 	margin: 0 26px;
-
 }
 .nav-wrapper a {
 	color: #606060;
@@ -40,7 +36,6 @@
 .user-links {
 	float: right;
 	line-height: 114px;
-
 }
 .user-links ul{
 	margin: 0;
@@ -106,7 +101,6 @@
 	width: 39px;
 	height: 41px;
 	background:url('../images/search-dark-icon.png') 0% 50% no-repeat no-repeat;
-
 }
 .separator hr {
 	margin: 0;
@@ -267,7 +261,6 @@
 	text-align: center;
 	font-size: 14px;
 	margin: 130px 0px;
-
 }
 
 .category__type {
@@ -275,7 +268,6 @@
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 17px;
-
 }
 .category__more a {
 	font-size: 18px;
@@ -378,7 +370,6 @@
 	overflow: hidden;
 	text-indent: -9999px;
 	background-color: #fff;
-	/*background: url('../images/cross.png') no-repeat right #fff;*/
 	background:url('../images/cross.png') 50% 50% no-repeat no-repeat;
 }
 .purchases__total {
@@ -484,7 +475,6 @@
 	width: 100%;
 	height: 170px;
 	background: url('../images/arrows-separator.png') no-repeat center #fff;
-
 }
 .purchases__single-item-data__amount p::before,
 .total-calculation td:last-child::before,
@@ -496,7 +486,30 @@
 	color: #f48240;
 }
 
+input[type=number] {
+    background: url('../images/numberfield-arrows.png') no-repeat right #fff ;  
+    border: 0;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 0 8px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:block;
+    width:8px;
+    color: #333;
+    text-align:right;
+    position:relative;
+    left: 8px;
+}
 
+input[type=number]:hover::-webkit-inner-spin-button { 
+    background: url('../images/numberfield-arrows.png') no-repeat right #fff ;  
+    width: 10px;
+    height: 24px;
+}
 footer {
 	font-size: 12px;
 	color: #303030;
@@ -517,7 +530,6 @@ footer ul {
 	padding: 0;
 	list-style: none;
 	line-height: 22px;
-
 }
 
 footer a {
